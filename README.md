@@ -43,7 +43,7 @@ The game engine (`src/game/`) is **pure TypeScript with zero React dependencies*
 ### Install & Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dino-run.git
+git clone https://github.com/aupbrown/dino-run.git
 cd dino-run
 pnpm install
 pnpm dev
