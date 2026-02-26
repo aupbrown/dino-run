@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+:root {
+  --sky-top: #c8b4e8;
+  --sky-bottom: #f7c5d0;
+  --sky-night-top: #2d1b69;
+  --sky-night-bottom: #5c3a8c;
+  --ground-color: #e8d5c0;
+  --ground-line: #c4a882;
+  --dino-default: #535353;
+  --pastel-green: #88d8a0;
+  --pastel-blue: #93c4f5;
+  --pastel-purple: #c4a0e8;
+  --pastel-yellow: #f7e07a;
+  --pastel-pink: #f7c0d0;
+  --pastel-red: #f4a0a0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, var(--sky-top) 0%, var(--sky-bottom) 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+canvas {
+  display: block;
+}
